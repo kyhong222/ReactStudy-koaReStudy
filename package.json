@@ -11,6 +11,7 @@
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
     "express-to-koa": "^2.0.0",
+    "immutable": "^4.0.0-rc.12",
     "joi": "^14.3.1",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.11.0",
@@ -20,10 +21,16 @@
     "koa-router": "^8.0.8",
     "koa-static": "^5.0.0",
     "mongoose": "^5.9.3",
+    "open-color": "^1.7.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "redux-actions": "^2.6.5",
+    "styled-components": "^5.0.1",
     "swagger-ui-koa": "^0.0.1"
   },
   "scripts": {
-    "start": "NODE_PATH=Client/src node Client/src",
-    "start:dev": "NODE_PATH=Client/src nodemon --watch Client/src/ Client/src/index.js"
+    "start": "NODE_PATH=Server/src node Server/src",
+    "start:dev": "NODE_PATH=Server/src nodemon --watch Server/src/ Server/src/index.js"
   }
 }

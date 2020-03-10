@@ -35,8 +35,8 @@ npm manifest:
       "koa": "^2.11.0"
     }
     "scripts":{
-      "start": "node Client/src",
-      "start:dev": "nodemon --watch Client/src/ Client/src/index.js"
+      "start": "node Server/src",
+      "start:dev": "nodemon --watch Server/src/ Server/src/index.js"
     } 
   }
 
