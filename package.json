@@ -1,0 +1,29 @@
+{
+  "name": "koa-restudy",
+  "version": "1.0.0",
+  "description": "koa study 2",
+  "main": "index.js",
+  "repository": "https://github.com/kyhong222/ReactStudy-koaReStudy.git",
+  "author": "daydream",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express-to-koa": "^2.0.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-convert": "^1.2.0",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.9.3",
+    "swagger-ui-koa": "^0.0.1"
+  },
+  "scripts": {
+    "start": "NODE_PATH=Client/src node Client/src",
+    "start:dev": "NODE_PATH=Client/src nodemon --watch Client/src/ Client/src/index.js"
+  }
+}
